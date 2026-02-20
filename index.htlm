@@ -27,7 +27,7 @@
     </table>
 
     <script>
-        const ODDS_API_KEY = https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=6d1bcc259c18af0e604ec5d7eb84c12e&regions=us&markets=h2h,spreads,totals&oddsFormat=american; // Replace with your key
+        const ODDS_API_KEY = https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=6d1bcc259c18af0e604ec5d7eb84c12e; // Replace with your key
         const today = new Date().toISOString().split('T')[0]; // Current date in YYYY-MM-DD
 
         async function fetchData(url) {
